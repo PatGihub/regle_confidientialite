@@ -1,0 +1,5 @@
+{
+  "name": "Politique de Confidentialité Générique",
+  "description": "Page de confidentialité prête à l'emploi. Par défaut générique ('L'Application'), ou personnalisable via URL (ex: ?app=ZenSudoku).",
+  "requestFramePermissions": []
+}
