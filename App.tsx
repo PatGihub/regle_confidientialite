@@ -12,7 +12,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-slate-50 selection:bg-emerald-200 selection:text-emerald-900">
+    <div className="app-root min-h-screen flex flex-col bg-slate-50 selection:bg-emerald-200 selection:text-emerald-900">
       <Header />
       <PrivacyContent />
       <Footer />

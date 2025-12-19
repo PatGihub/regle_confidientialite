@@ -23,10 +23,10 @@ const ListItem: React.FC<{ children: React.ReactNode }> = ({ children }) => (
 
 export const PrivacyContent: React.FC = () => {
   return (
-    <main className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <main className="container max-w-4xl mx-auto px-4 sm:px-6 py-12">
       
       <div className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">
+        <h1 className="title text-4xl md:text-5xl font-extrabold text-slate-900 mb-4">
           Politique de Confidentialité
         </h1>
         <p className="text-lg text-slate-500 max-w-2xl mx-auto">
@@ -37,7 +37,7 @@ export const PrivacyContent: React.FC = () => {
         </p>
       </div>
 
-      <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 md:p-12">
+      <div className="card bg-white rounded-2xl shadow-sm border border-slate-200 p-8 md:p-12">
         
         <Paragraph>
           {DEVELOPER_NAME} a développé l'application {APP_NAME}. Ce SERVICE est fourni par {DEVELOPER_NAME} et est destiné à être utilisé tel quel.
