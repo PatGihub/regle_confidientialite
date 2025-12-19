@@ -47,18 +47,34 @@ header.app-header {
   border: 1px solid #e6eef6;
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 1px 2px rgba(2,6,23,0.04);
+  --accent: #10b981; /* emerald/green */
+  --accent-dark: #047857; /* darker green for accents */
 }
 
 footer.app-footer {
   background: #0f172a;
-  color: #cbd5e1;
+  background: var(--accent);
   padding: 2rem 0;
   margin-top: 2rem;
 }
 
 a.button {
   display: inline-block;
+.icon-box {
+  width: 2rem;
+  height: 2rem;
+  background: var(--accent);
+  color: white;
+  border-radius: 0.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 2px rgba(2,6,23,0.04);
+}
+
+.accent-text {
+  color: var(--accent-dark);
+}
   background: var(--accent);
   color: white;
   padding: 0.5rem 0.75rem;
